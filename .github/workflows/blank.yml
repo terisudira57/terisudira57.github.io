@@ -2,6 +2,8 @@ name: sekaynotnt
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 */6 * * *'  # Jalan ulang setiap 6 jam
 
 jobs:
 
